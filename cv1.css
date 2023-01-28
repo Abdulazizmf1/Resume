@@ -1,0 +1,141 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body
+{
+    background: lightblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+
+}
+.container
+{
+position: relative;
+width: 100%;
+max-width: 1000px;
+min-height: 1000px;
+background: #fff;
+margin: 50px;
+display: grid;
+grid-template-columns: 1fr 2fr;
+box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+
+}
+.container .left_side
+{
+position: relative;
+background: #003147;
+padding: 40px;
+
+}
+.container .right_side
+{
+position: relative;
+background: #fff;
+padding:  40px;
+
+
+}
+.profileText h2
+{
+color:#fff;
+font-size: 1.5em;
+margin-top: 10px;
+text-transform: capitalize;
+text-align: center;
+font-weight: 600;
+line-height: 1.4em;
+
+}
+.profileText h2 span
+{
+    font-size: 0.5em;
+    font-weight: 300;
+}
+.profileText h3
+{
+    padding-top: 30px;
+    font-size: 0.8em;
+    font-weight: 300;
+    color:#fff;
+}
+.profileText p
+{
+    padding-top: 10px;
+    font-size: 0.8em;
+    font-weight: 300;
+    color:#fff;
+}
+.contactInfo
+{
+padding-top: 40px;
+
+}
+.title
+{
+color:#fff;
+text-transform: uppercase;
+font-weight: 600;
+letter-spacing: 1px;
+margin-bottom: 20px;
+font-size: 1.5em;
+text-align: center;
+
+}
+.contactInfo p
+{
+    letter-spacing: 1px;
+    text-align: center;
+
+
+}
+.location h3
+{
+    padding-top: 20px;
+    color:#fff;
+font-size: 1.5em;
+margin-top: 20px;
+text-transform: capitalize;
+text-align: center;
+font-weight: 600;
+line-height: 1.4em;
+}
+.location p
+{
+    padding-top: 10px;
+    font-size: 0.8em;
+    font-weight: 300;
+    color:#fff;
+    text-align: center;
+}
+.languages
+{
+    padding-top: 30px;
+    color:#fff;
+font-size: 1em;
+margin-top: 20px;
+text-transform: capitalize;
+text-align: center;
+font-weight: 500;
+line-height: 1em;
+}
+.Skills
+{
+    padding-top: 30px;
+    color:#fff;
+font-size: 1em;
+margin-top: 20px;
+text-transform: capitalize;
+text-align: center;
+font-weight: 500;
+line-height: 1em;
+}
